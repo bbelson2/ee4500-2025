@@ -1,0 +1,17 @@
+{
+    "uplink_message": {
+        "session_key_id": "AZF+SByXlm1LgayZHMYdFw==",
+        "f_port": 2,
+        "f_cnt": 3646,
+        "frm_payload": "EtYAPQ4zF54/",
+        "decoded_payload": {
+            "bytes": "12d6003d0e33179e3f",
+            "count": 3645,
+            "deviceId": "eui-50efcd857bac19b4",
+            "light": 214,
+            "receivedAt": "2025-03-25T14:31:18.166Z",
+            "temperature": 18,
+            "voltage": 1.235082983970642
+        }
+    }
+}
