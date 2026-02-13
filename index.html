@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JCU Engineering</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="icon" href="resources/James-Cook-University-1.webp" type="image/webp">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: auto;
+        }
+
+        .lab-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .lab-list li {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .lab-list li:hover {
+            background: #e2e6ea;
+        }
+
+        .lab-list a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .lab-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="resources/James-Cook-University-1.webp" alt="JCU Logo" height="40" class="me-4">
+                    <span>JCU Engineering</span>
+                </a>
+            </div>
+        </nav>
+
+        <div class="container mt-4 content">
+            <h1 class="text-center">EE4500 IoT Stream</h1>
+            <h5 class="text-center">Internet of Things and Cloud Integration</h5>
+            <p class="text-center">v1.7 20-Apr-2025</p>
+            <div class="accordion mt-4" id="accordionExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne">
+                            About this subject
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h5>Subject description</h5>
+
+                            <p>This subject will introduce the integration of IoT systems into cloud architectures from
+                                a technical perspective.</p>
+                            <p>It will cover the data communication protocols used between devices and platforms
+                                including:</p>
+                            <ul>
+                                <li>Low bandwidth IoT edge protocol such as LoRaWAN</li>
+                                <li>Machine-to-machine protocols and integrations</li>
+                                <li>RESTful API, an architectural style for an application program interface (API) that
+                                    uses
+                                    HTTP requests to access and use data</li>
+                            </ul>
+                            <p>Students will be encouraged to qualify for certification on a
+                                cloud-based platform.</p>
+                            <p>The second part of this subject will cover how to propose an idea with both
+                                technological advantages and business opportunities, how to write a grant
+                                application to attract
+                                business investors, and how to quickly develop prototypes of their new inventions
+                                with an enterprise
+                                IoT platform. Overall, this subject endeavours to boost students' innovation and
+                                business skills and
+                                nurture their commercial aspirations.
+                            </p>
+                            <h5>Learning outcomes</h5>
+                            <p>On successful completion of this subject, you will be able to:</p>
+                            <ul>
+                                <li>define a scope, identify resources and tools, assess risks and implement appropriate
+                                    intervention
+                                    plans for successful delivery of a project</li>
+                                <li>demonstrate adherence to professional and ethical responsibilities in project
+                                    delivery</li>
+                                <li>identify engineering design techniques on IoT technologies applied to real world
+                                    applications</li>
+                                <li>apply management and leadership skills to develop a solution for a complex design
+                                    problem</li>
+                            </ul>
+                            <p>These outcomes will contribute to your overall achievement of course learning outcomes.
+                            </p>
+                            <h5>Generative AI Usage</h5>
+                            <p>This subject permits the use of Generative AI tools for the completion of learning
+                                activities and/or
+                                assessments.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo">
+                            Assessments
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h5>Assessment items</h5>
+                            <div class="accordion mt-3" id="assignmentAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingA1">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseA1">
+                                            Assessment item 1: Project Proposal
+                                        </button>
+                                    </h2>
+                                    <div id="collapseA1" class="accordion-collapse collapse"
+                                        data-bs-parent="#assignmentAccordion">
+                                        <div class="accordion-body">
+
+                                            <h5>Summary</h5>
+                                            <table class="table table-bordered table-striped">
+                                                <style>
+                                                    td:first-child {
+                                                        font-weight: bold;
+                                                    }
+                                                </style>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Aligned subject learning outcomes</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>define a scope, identify resources and tools, assess
+                                                                    risks and implement appropriate intervention plans
+                                                                    for successful delivery of a project</li>
+                                                                <li>demonstrate adherence to professional and ethical
+                                                                    responsibilities in project delivery</li>
+                                                                <li>identify engineering design techniques on IoT
+                                                                    technologies applied to real world applications</li>
+                                                                <li>apply management and leadership skills to develop a
+                                                                    solution for a complex design problem</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>Aligned professional standards/competencies</td>
+                                                        <td>
+                                                            <p>Engineers Australia Stage 1 Competencies:</p>
+                                                            <dl>
+                                                                <dt>1. Knowledge and Skill Base</dt>
+                                                                <dd>1.2 Conceptual understanding of the mathematics,
+                                                                    numerical analysis, statistics, and computer and
+                                                                    information sciences which underpin the engineering
+                                                                    discipline.</dd>
+                                                                <dt>2. Engineering Application Ability</dt>
+                                                                <dd>2.1 Application of established engineering methods
+                                                                    to complex engineering problem-solving.</dd>
+                                                                <dd>2.2 Fluent application of engineering techniques,
+                                                                    tools and resources.</dd>
+                                                                <dt>3. Professional and Personal Attributes</dt>
+                                                                <dd>3.2 Effective oral and written communication in
+                                                                    professional and lay domains</dd>
+                                                                <dd>3.3 Creative, innovative and pro-active demeanour
+                                                                </dd>
+                                                                <dd>3.5 Orderly management of self, and professional
+                                                                    conduct</dd>
+                                                            </dl>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Group or individual </td>
+                                                        <td>Group</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Weighting and due date</td>
+                                                        <td>10% Due TBA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Generative AI use</td>
+                                                        <td>Generative AI tools are not restricted for this assessment
+                                                            item
+                                                            In this assessment, you can use Generative Artificial
+                                                            Intelligence (GenAI) to assist you in any way.
+                                                            Any use of generative AI must be appropriately acknowledged
+                                                            and include a <a target="_blank"
+                                                                href="https://www.jcu.edu.au/students/learningcentre/academic-integrity/using-artificial-intelligence">Declaration
+                                                                of AI-Generated Material</a>.
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <h5>Description</h5>
+                                            <p>Students are required to submit an expression of interest (EOI) proposal
+                                                at the end of Week 4 that describe the background, innovation, and
+                                                methodology of the proposed project. The proposal must follow a supplied
+                                                template.</p>
+                                            <p>Students are required to give a 10-min presentation to pitch their
+                                                projects during Week 5.</p>
+
+                                            <h5>Rubric</h5>
+
+                                            <table class="table table-bordered table-striped">
+                                                <style>
+                                                    td:first-child {
+                                                        font-weight: normal;
+                                                    }
+                                                </style>
+                                                <thead>
+                                                    <tr>
+                                                        <th>High Standard</th>
+                                                        <th>Medium Standard</th>
+                                                        <th>Low Standard</th>
+                                                        <th>Fail</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Clearly defines the problem and demonstrates a strong need
+                                                            for the solution.</td>
+                                                        <td>Adequately defines the problem and shows a need for the
+                                                            solution.</td>
+                                                        <td>Defines the problem but lacks clear demonstration of the
+                                                            need for the solution.</td>
+                                                        <td>Vague or unclear problem statement and no clear need for the
+                                                            solution.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Provides a detailed and innovative solution, demonstrating
+                                                            how it addresses the problem effectively.</td>
+                                                        <td>Describes the solution adequately, showing how it addresses
+                                                            the
+                                                            problem.</td>
+                                                        <td>Provides a basic description of the solution with limited
+                                                            explanation of its effectiveness.</td>
+                                                        <td>Vague or unclear description of the solution.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Proposes a clear methodology with a detailed timeline for
+                                                            project completion.</td>
+                                                        <td>Proposes a methodology with a timeline for project
+                                                            completion.</td>
+                                                        <td>Proposes a basic methodology with a limited timeline for
+                                                            project
+                                                            completion.</td>
+                                                        <td>Vague or missing methodology and timeline.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Clearly explains the technical aspects and feasibility of
+                                                            the
+                                                            project with detailed implementation steps.</td>
+
+                                                        <td>Explains the technical aspects and feasibility adequately
+                                                            with
+                                                            some implementation steps.</td>
+                                                        <td>Provides a basic explanation of the technical aspects and
+                                                            feasibility with limited implementation steps.</td>
+                                                        <td>Vague or unclear technical explanation and feasibility.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Provides a comprehensive and viable business model with
+                                                            clear
+                                                            revenue streams and cost structures.</td>
+                                                        <td>Describes the business model adequately with some
+                                                            consideration
+                                                            of revenue streams and cost structures.</td>
+                                                        <td>Basic description of the business model with limited
+                                                            consideration of revenue streams and cost structures.</td>
+                                                        <td>Vague or unclear business model.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingA2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseA2">
+                                            Assessment Item 2: Lab Tasks
+                                        </button>
+                                    </h2>
+                                    <div id="collapseA2" class="accordion-collapse collapse"
+                                        data-bs-parent="#assignmentAccordion">
+                                        <div class="accordion-body">
+                                            <h5>Summary</h5>
+                                            <table class="table table-bordered table-striped">
+                                                <style>
+                                                    td:first-child {
+                                                        font-weight: bold;
+                                                    }
+                                                </style>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Aligned subject learning outcomes</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>define a scope, identify resources and tools, assess
+                                                                    risks and implement appropriate intervention plans
+                                                                    for successful delivery of a project</li>
+                                                                <li>demonstrate adherence to professional and ethical
+                                                                    responsibilities in project delivery</li>
+                                                                <li>identify engineering design techniques on IoT
+                                                                    technologies applied to real world applications</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>Aligned professional standards/competencies</td>
+                                                        <td>
+                                                            <p>Engineers Australia Stage 1 Competencies:</p>
+                                                            <dl>
+                                                                <dt>1. Knowledge and Skill Base</dt>
+                                                                <dd>1.2 Conceptual understanding of the mathematics,
+                                                                    numerical analysis, statistics, and computer and
+                                                                    information sciences which underpin the engineering
+                                                                    discipline.</dd>
+                                                                <dt>2. Engineering Application Ability</dt>
+                                                                <dd>2.1 Application of established engineering methods
+                                                                    to complex engineering problem-solving.</dd>
+                                                                <dd>2.2 Fluent application of engineering techniques,
+                                                                    tools and resources.</dd>
+                                                                <dt>3. Professional and Personal Attributes</dt>
+                                                                <dd>3.2 Effective oral and written communication in
+                                                                    professional and lay domains</dd>
+                                                                <dd>3.3 Creative, innovative and pro-active demeanour
+                                                                </dd>
+                                                                <dd>3.5 Orderly management of self, and professional
+                                                                    conduct</dd>
+                                                            </dl>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Group or individual </td>
+                                                        <td>Individual</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Weighting and due date</td>
+                                                        <td>35% in total. Each report is due Friday of week after lab.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Generative AI use</td>
+                                                        <td>Generative AI tools are restricted in this assessment item
+                                                            In this assessment, you can use Generative Artificial
+                                                            Intelligence (GenAI) except where the lab sheet expressly
+                                                            forbids it. Any use of generative AI must be appropriately
+                                                            acknowledged and include a
+                                                            <a target="_blank"
+                                                                href="https://www.jcu.edu.au/students/learningcentre/academic-integrity/using-artificial-intelligence">Declaration
+                                                                of AI-Generated Material</a>.
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <h5>Description</h5>
+                                            <p>Each of four lab tasks will be described in detail on the week’s lab
+                                                sheet. </p>
+
+                                            <h5>Rubric</h5>
+
+                                            <p>Each task will be marked out of 5, with zero marks for tasks that are not
+                                                attempted, 1-2 marks for incomplete solutions, 3 for functional
+                                                solutions, 4
+                                                for functional solutions with some or all optional parts attempted, and
+                                                5
+                                                for exceptional solutions, with all optional parts of the task
+                                                completed.</p>
+                                            <p>The labs will contribute 35% of the total grade.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingA3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseA3">
+                                            Assessment item 3: Cloud Architecture Quiz
+                                        </button>
+                                    </h2>
+                                    <div id="collapseA3" class="accordion-collapse collapse"
+                                        data-bs-parent="#assignmentAccordion">
+                                        <div class="accordion-body">
+                                            <h5>Summary</h5>
+                                            <table class="table table-bordered table-striped">
+                                                <style>
+                                                    td:first-child {
+                                                        font-weight: bold;
+                                                    }
+                                                </style>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Aligned subject learning outcomes</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>define a scope, identify resources and tools, assess
+                                                                    risks and implement appropriate intervention plans
+                                                                    for successful delivery of a project</li>
+                                                                <li>identify engineering design techniques on IoT
+                                                                    technologies applied to real world applications</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>Aligned professional standards/competencies</td>
+                                                        <td>
+                                                            <p>Engineers Australia Stage 1 Competencies:</p>
+                                                            <dl>
+                                                                <dt>1. Knowledge and Skill Base</dt>
+                                                                <dd>1.2 Conceptual understanding of the mathematics,
+                                                                    numerical analysis, statistics, and computer and
+                                                                    information sciences which underpin the engineering
+                                                                    discipline.</dd>
+                                                            </dl>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Group or individual </td>
+                                                        <td>Individual</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Weighting and due date</td>
+                                                        <td>10% in total. Due TBA.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Generative AI use</td>
+                                                        <td>Generative AI tools cannot be used in this assessment task
+                                                            In this assessment, you must not use Generative Artificial
+                                                            Intelligence (GenAI) for any elements of the assessment task
+                                                            including the generation of any materials or content in
+                                                            relation to the assessment item.
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <h5>Description</h5>
+                                            <p>This is a multiple choice quiz, with exactly one correct answer to each
+                                                question. It tests knowledge and understanding of some aspects of the
+                                                cloud development environment covered in the lectures and walkthroughs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingA2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseA4">
+                                            Assessment Item 4: Presentation
+                                        </button>
+                                    </h2>
+                                    <div id="collapseA4" class="accordion-collapse collapse"
+                                        data-bs-parent="#assignmentAccordion">
+                                        <div class="accordion-body">
+                                            <h5>Summary</h5>
+                                            <table class="table table-bordered table-striped">
+                                                <style>
+                                                    td:first-child {
+                                                        font-weight: bold;
+                                                    }
+                                                </style>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Aligned subject learning outcomes</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>define a scope, identify resources and tools, assess
+                                                                    risks and implement appropriate intervention plans
+                                                                    for successful delivery of a project</li>
+                                                                <li>demonstrate adherence to professional and ethical
+                                                                    responsibilities in project delivery</li>
+                                                                <li>identify engineering design techniques on IoT
+                                                                    technologies applied to real world applications</li>
+                                                                <li>apply management and leadership skills to develop a
+                                                                    solution for a complex design problem</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>Aligned professional standards/competencies</td>
+                                                        <td>
+                                                            <p>Engineers Australia Stage 1 Competencies:</p>
+                                                            <dl>
+                                                                <dt>1. Knowledge and Skill Base</dt>
+                                                                <dd>1.2 Conceptual understanding of the mathematics,
+                                                                    numerical analysis, statistics, and computer and
+                                                                    information sciences which underpin the engineering
+                                                                    discipline.</dd>
+                                                                <dt>2. Engineering Application Ability</dt>
+                                                                <dd>2.1 Application of established engineering methods
+                                                                    to complex engineering problem-solving.</dd>
+                                                                <dd>2.2 Fluent application of engineering techniques,
+                                                                    tools and resources.</dd>
+                                                                <dt>3. Professional and Personal Attributes</dt>
+                                                                <dd>3.2 Effective oral and written communication in
+                                                                    professional and lay domains</dd>
+                                                                <dd>3.3 Creative, innovative and pro-active demeanour
+                                                                </dd>
+                                                                <dd>3.5 Orderly management of self, and professional
+                                                                    conduct</dd>
+                                                            </dl>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Group or individual </td>
+                                                        <td>Group</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Weighting and due date</td>
+                                                        <td>Project presentation (group) 45% Week 7</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Generative AI use</td>
+                                                        <td>Generative AI tools are not restricted for this assessment
+                                                            item
+                                                            In this assessment, you can use Generative Artificial
+                                                            Intelligence (GenAI) to assist you in any way. Any use of
+                                                            generative AI must be appropriately acknowledged and include
+                                                            a
+                                                            <a target="_blank"
+                                                                href="https://www.jcu.edu.au/students/learningcentre/academic-integrity/using-artificial-intelligence">Declaration
+                                                                of AI-Generated Material</a>.
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <h5>Description</h5>
+                                            <p>Students are required to demonstrate their group projects during Week 7.
+                                            </p>
+
+                                            <h5>Rubrics</h5>
+
+                                            <p>The group will present a description of the project.</p>
+
+                                            <p>Group presentation will be marked out of 100, with marks as described in
+                                                the rubric below.</p>
+
+                                            <h5>Assessment Rubric</h5>
+                                            <table class="table table-bordered table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Category</th>
+                                                        <th>Criteria</th>
+                                                        <th>Max Marks</th>
+                                                        <th>Performance Indicators</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Problem Definition</td>
+                                                        <td>Clear explanation of the problem being addressed; relevance
+                                                            and significance to target markets.</td>
+                                                        <td>/20</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>17–20: Clear, focused, and compelling</li>
+                                                                <li>13–16: Clear but lacks impact or detail</li>
+                                                                <li>9–12: General or vague</li>
+                                                                <li>0–8: Unclear or poorly defined</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Innovation and Technology</td>
+                                                        <td>Uniqueness of solution, technical approach, feasibility;
+                                                            evidence of step-function improvement.</td>
+                                                        <td>/15</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>13–15: Highly novel and feasible</li>
+                                                                <li>10–12: Some novelty; generally feasible</li>
+                                                                <li>7–9: Minor innovation; feasibility unclear</li>
+                                                                <li>0–6: Not clearly innovative</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Value Proposition</td>
+                                                        <td>Clear articulation of the benefit to users; quantified
+                                                            improvements over current alternatives.</td>
+                                                        <td>/15</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>13–15: Strong user focus; measurable benefits</li>
+                                                                <li>10–12: General benefits explained</li>
+                                                                <li>7–9: Some relevance, but unclear impact</li>
+                                                                <li>0–6: Weak or missing value</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Customer and Market</td>
+                                                        <td>Identification of target customer segments; evidence of need
+                                                            and demand; market size; product differentiation.</td>
+                                                        <td>/15</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>13–15: Target clearly defined and supported</li>
+                                                                <li>10–12: Generally defined; some evidence</li>
+                                                                <li>7–9: Limited research or clarity</li>
+                                                                <li>0–6: Unfocused or unsupported</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Business Model & Path to Market</td>
+                                                        <td>Use of the Business Model Canvas to explain key components:
+                                                            partners, activities, resources, etc.
+                                                            Description of commercialization pathway, customer
+                                                            acquisition, and scalability.</td>
+                                                        <td>/15</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>13–15: Comprehensive and practical</li>
+                                                                <li>10–12: Mostly complete, some assumptions</li>
+                                                                <li>7–9: Lacks integration or clarity</li>
+                                                                <li>0–6: Incomplete or unrealistic</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Risk and Viability</td>
+                                                        <td>Identification of project or commercial risks; mitigation
+                                                            strategies.</td>
+                                                        <td>/5</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>5: Clear, specific risks and strong mitigation</li>
+                                                                <li>3–4: Some risk identified</li>
+                                                                <li>1–2: Superficial risk coverage</li>
+                                                                <li>0: Not addressed</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Presentation and Delivery</td>
+                                                        <td>Clarity, professionalism, visual aids, timing, engagement,
+                                                            and team cohesion during Q&A.</td>
+                                                        <td>/15</td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>13–15: Polished, confident, engaging</li>
+                                                                <li>10–12: Clear and organized</li>
+                                                                <li>7–9: Some issues in delivery</li>
+                                                                <li>0–6: Disorganized or unclear</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h5 class="mt-3">Resources</h5>
+                            <ul class="lab-list">
+                                <li><a href="files/EE4500 Proposal Guidelines.pdf" target="_blank">Proposal
+                                        Guidelines</a></li>
+                                <li><a href="files/business-model-canvas.docx" target="_blank">Business Model Canvas</a>
+                                </li>
+                                <li><a href="files/EOI Example.docx" target="_blank">Expression of Interest Example</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree">
+                            Lectures
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><img src="resources/online-icon.png" width="30" class="mr-3"><span
+                                    class="ml-3">&nbsp;&nbsp;&nbsp;Lectures with this symbol can be found online at the
+                                    AWS Academy portal.</span></p>
+                            <table class="table table-bordered ">
+                                <style>
+                                    td:first-child {
+                                        font-weight: normal;
+                                    }
+                                </style>
+                                <thead>
+                                    <tr>
+                                        <th>Week</th>
+                                        <th>Title</th>
+                                        <th>Download</th>
+                                        <th>Notes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="6">1</td>
+                                        <td>Introduction</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-Intro.pdf">EE4500-2025-Intro.pdf</a></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cloud APIs and RESTful APIs</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-APIs.pdf">EE4500-2025-APIs.pdf</a></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Value Proposition Canvas</td>
+                                        <td><a target="_blank" href="lectures/Value Proposition Canvas.pdf">Value
+                                                Proposition Canvas.pdf</a></td>
+                                        <td>Prof Nico Adams</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Business Model Canvas</td>
+                                        <td><a target="_blank" href="lectures/Business Model Canvas.pdf">Business Model
+                                                Canvas.pdf</a></td>
+                                        <td>Prof Nico Adams</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BMC and VP Design</td>
+                                        <td><a target="_blank" href="lectures/BMC and VP Design.pdf">BMC and VP
+                                                Design.pdf</a></td>
+                                        <td>Prof Nico Adams</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pitch Deck Template</td>
+                                        <td><a target="_blank" href="lectures/Pitch Deck Template.pptx">Pitch Deck
+                                                Template.pptx</a></td>
+                                        <td>Prof Nico Adams</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">2</td>
+                                        <td>AWS Introduction</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-AWS-0-Course-Introduction.pdf">EE4500-2025-AWS-0-Course-Introduction.pdf</a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cloud concepts overview</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-AWS-1-Cloud-Concepts-Overview.pdf">EE4500-2025-AWS-1-Cloud-Concepts-Overview.pdf</a>
+                                        </td>
+                                        <td><img src="resources/online-icon.png" width="30"> AWS - Cloud Foundations
+                                            Module 1 - Cloud Concepts Overview</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LoRaWAN & The Things Network</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-LoRaWAN-and-TTN.pdf">EE4500-2025-LoRaWAN-and-TTN.pdf</a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">3</td>
+                                        <td>AWS Global Infrastructure Overview</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-AWS-3-AWS-Global-Infrastructure-Overview.pdf">EE4500-2025-AWS-3-AWS-Global-Infrastructure-Overview.pdf</a>
+                                        </td>
+                                        <td><img src="resources/online-icon.png" width="30"> AWS - Cloud Foundations
+                                            Module 3 - Global Infrastructure Overview</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AWS Cloud Security</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-AWS-4-AWS-Cloud-Security.pdf">EE4500-2025-AWS-4-AWS-Cloud-Security.pdf</a>
+                                        </td>
+                                        <td><img src="resources/online-icon.png" width="30"> AWS - Cloud Foundations
+                                            Module 4 - AWS Cloud Security</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AWS Networking and Connectivity</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-AWS-5-AWS-Networking-and-Content-Delivery.pdf">EE4500-2025-AWS-5-AWS-Networking-and-Content-Delivery.pdf</a>
+                                        </td>
+                                        <td><img src="resources/online-icon.png" width="30"> AWS - Cloud Foundations
+                                            Module 5 - AWS Networking and Content Delivery</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">4</td>
+                                        <td>AWS Compute</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-AWS-6-AWS-Compute.pdf">EE4500-2025-AWS-6-AWS-Compute.pdf</a>
+                                        </td>
+                                        <td><img src="resources/online-icon.png" width="30"> AWS - Cloud Foundations
+                                            Module 6 - Compute</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web development</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-Web-Development.pdf">EE4500-2025-Web-Development.pdf</a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">5</td>
+                                        <td>AWS Storage</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-AWS-7-Storage.pdf">EE4500-2025-AWS-7-Storage.pdf</a>
+                                        </td>
+                                        <td><img src="resources/online-icon.png" width="30"> AWS - Cloud Foundations
+                                            Module 7 - Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AWS Databases</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-AWS-8-Databases.pdf">EE4500-2025-AWS-8-Databases.pdf</a>
+                                        </td>
+                                        <td><img src="resources/online-icon.png" width="30"> AWS - Cloud Foundations
+                                            Module 8 - Databases</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Review</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-Review.pdf">EE4500-2025-Review.pdf</a></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">6</td>
+                                        <td>AWS Certification Walkthrough</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-Certification.pdf">EE4500-2025-Certification.pdf</a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Subject Wrap</td>
+                                        <td><a target="_blank"
+                                                href="lectures/EE4500-2025-Wrap.pdf">EE4500-2025-Wrap.pdf</a></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive">
+                            Raspberry Pi Pico
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>The files below will help you set up a Raspberry Pi Pico (version 1) for C development.
+                                This will be needed for the Labs. Please refer to the software guide below for the
+                                installation of the development software.</p>
+                            <ul class="lab-list">
+                                <li><a href="files/Getting Started with Pico on PC v2.0.6.pdf" target="_blank">Getting
+                                        Started with Pico on PC v2.0.6.pdf</a></li>
+                                <li><a href="files/ppgen.zip" target="_blank">ppgen.zip</a></li>
+                                <li><a href="files/debugprobe_on_pico.uf2" target="_blank">debugprobe_on_pico.uf2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour">
+                            Labs
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="accordion mt-3" id="labsAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingB1">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseB1">
+                                            Lab 1: LoRaWAN Gateway
+                                        </button>
+                                    </h2>
+                                    <div id="collapseB1" class="accordion-collapse collapse"
+                                        data-bs-parent="#labsAccordion">
+                                        <div class="accordion-body">
+                                            <h5>Task Sheet</h5>
+                                            <ul class="lab-list">
+                                                <li><a href="files/EE4500-Lab-LoRaWAN-Gateway-1.3.pdf"
+                                                        target="_blank">LoRaWAN Gateway</a></li>
+                                            </ul>
+
+                                            <h5>Deliverables</h5>
+                                            <ol>
+                                                <li><b>Device:</b>
+                                                    The device should be demonstrated working by monitoring the TTN
+                                                    Gateway page when a LoRaWAN
+                                                    packet is force-delivered using the Dragino SN50V3-LB node supplied.
+                                                </li>
+                                                <li>
+                                                    <b>Recipe:</b>
+                                                    The recipe, as described in the task sheet, should be delivered as a
+                                                    PDF and emailed to the tutor.
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingB2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseB2">
+                                            Lab 2: LoRaWAN Node
+                                        </button>
+                                    </h2>
+                                    <div id="collapseB2" class="accordion-collapse collapse"
+                                        data-bs-parent="#labsAccordion">
+                                        <div class="accordion-body">
+                                            <h5>Task Sheet</h5>
+                                            <ul class="lab-list">
+                                                <li><a href="files/EE4500-Lab-LoRaWAN-Node-1.3.pdf"
+                                                        target="_blank">LoRaWAN Node</a>
+                                                </li>
+                                            </ul>
+                                            <h5>Deliverables</h5>
+                                            <ol>
+                                                <li><b>Pico source code:</b>
+                                                    The deliverable for Lab 2 is the source code from the Pico.
+                                                    Please create a zip file that contains files as follows:
+                                                    <ul>
+                                                        <li>examples/otaa_temperature_led/CMakeLists.txt</li>
+                                                        <li>examples/otaa_temperature_led/config.h</li>
+                                                        <li>examples/otaa_temperature_led/main.c</li>
+                                                        <li>src/lorawan.c</li>
+                                                    </ul>
+                                                    Email the zip file to the subject tutor.
+                                                </li>
+                                                <li><b>Functioning TTN Application:</b> Demonstrate the TTN application
+                                                    receiving and parsing its data stream.</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingB3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseB3">
+                                            Lab 3: IoT Database
+                                        </button>
+                                    </h2>
+                                    <div id="collapseB3" class="accordion-collapse collapse"
+                                        data-bs-parent="#labsAccordion">
+                                        <div class="accordion-body">
+                                            <h5>Task Sheet</h5>
+                                            <ul class="lab-list">
+                                                <li><a href="files/EE4500-Lab-LoRaWAN-Database-1.5.pdf"
+                                                        target="_blank">IoT Database</a>
+                                                </li>
+                                                <li><a href="files/ddl.sql" target="_blank">ddl.sql</a></li>
+                                                <li><a href="files/payload.json" target="_blank">payload.json</a></li>
+                                            </ul>
+                                            <h5>Deliverables</h5>
+                                            <ol>
+                                                <li><b>Functioning TTN Application:</b> Demonstrate the TTN application
+                                                    receiving and parsing its data stream.</li>
+                                                <li><b>Database:</b> The database should be demonstrated working by
+                                                    querying the database table when a LoRaWAN packet is
+                                                    force-delivered using the Dragino SN50V3-LB node supplied.</li>
+                                                <li><b>Source code:</b>
+                                                    The deliverable for Lab 3 is:
+                                                    <ol>
+                                                        <li>the source code from the Pico</li>
+                                                        <li>the Uplink payload formatter from the TTN device - saved to
+                                                            a file uplink_formatter.js.</li>
+                                                    </ol>
+                                                    Please create a zip file that contains files as follows:
+                                                    <ul>
+                                                        <li>examples/otaa_temperature_led/CMakeLists.txt</li>
+                                                        <li>examples/otaa_temperature_led/config.h</li>
+                                                        <li>examples/otaa_temperature_led/main.c</li>
+                                                        <li>src/lorawan.c</li>
+                                                        <li>uplink_formatter.js</li>
+                                                    </ul>
+                                                    Email the zip file to the subject tutor.
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingB4">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseB4">
+                                            Lab 4: IoT Dashboard
+                                        </button>
+                                    </h2>
+                                    <div id="collapseB4" class="accordion-collapse collapse"
+                                        data-bs-parent="#labsAccordion">
+                                        <div class="accordion-body">
+                                            <h5>Task Sheet</h5>
+                                            <ul class="lab-list">
+                                                <li><a href="files/EE4500-Lab-LoRaWAN-Dashboard-1.4.pdf"
+                                                        target="_blank">IoT
+                                                        Dashboard</a></li>
+                                            </ul>
+                                            <h5>Deliverables</h5>
+                                            <ol>
+                                                <li><b>Functioning React Application:</b> Demonstrate the React
+                                                    application
+                                                    receiving and displaying its data stream.</li>
+                                                <li><b>Source code:</b>
+                                                    For lab 4, please create a zip file containing all your project
+                                                    files and folders, <b>except for node_modules and dist</b>.
+                                                    Email the zip file to the subject tutor.
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container">
+                &copy; 2025 JCU Engineering. All rights reserved.
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
